@@ -1,0 +1,24 @@
+1  arm0a.stl
+1  arm0b.stl
+1  arm1.stl
+1  armConnector.stl
+1  ausleger.stl
+1  bodyLower.stl
+1  bodyUpper.stl
+1  cabinBottom.stl
+1  CabinTop.stl
+1  counterwheel.stl
+1  distrRing.stl
+1  Kleinteile.stl
+1  loeffel.stl OR loeffelPrint.stl
+2  pwrWhlStabi.stl
+1  tableLower.stl
+1  TrackBoxLeft.stl
+1  trackBoxRight.stl
+2  trackGears.stl1 OR powerwheel.stl
+10  trackMiddleWheels.stl
+66  tracks.stl
+1  trackTightener.stl
+1  TrkMdlPart.stl
+3  washerSpacer.stl
+1  wireHolder.stl

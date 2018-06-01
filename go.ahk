@@ -8,10 +8,11 @@ Loop, read, D:\stl_files\g.txt
 		Sleep 500
 	}
 Run C:\Users\nunya\Downloads\STLView\STLView.exe %A_LoopReadLine%
-Sleep 1500
+Sleep 1320
 WinWait, ModuleWorks STL View,, 4
-Send {F11}
 Sleep 300
+Send {F11}
+Sleep 50
 WinClose ModuleWorks STL View
 }
 MsgBox Finished

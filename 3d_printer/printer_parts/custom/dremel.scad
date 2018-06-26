@@ -102,9 +102,9 @@ csk2();
 translate([53, 35, 0])
 csk2(); 
    
-   translate([10,20,0]){
+   translate([15,20,0]){
        hole();
-      translate([0,0,3.55])csk3();
+      translate([5,0,3.55])csk3();
    } 
    translate([40,20,0]){
    hole(); 
@@ -121,7 +121,7 @@ csk2();
 translate ([-2,-2,-5])
  cube([64,150,5]); 
   
-   translate([10,20,9])
+   translate([15,20,9])
        n();
    translate([40,20,9])
        n();

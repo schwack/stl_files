@@ -1,0 +1,62 @@
+group() {
+	difference() {
+		union() {
+			cylinder($fn = 100, $fa = 12, $fs = 2, h = 3, r1 = 51, r2 = 51, center = false);
+			group() {
+				difference() {
+					group() {
+						multmatrix([[1, 0, 0, 55], [0, 1, 0, 0], [0, 0, 1, 7.9], [0, 0, 0, 1]]) {
+							multmatrix([[2.22045e-016, -2.22045e-016, 1, 0], [1, 0, -2.22045e-016, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+								group() {
+									import(file = "../../../../Mcam9/Data/T.STL", layer = "", origin = [0, 0], scale = 1, convexity = 1, $fn = 100, $fa = 12, $fs = 2, timestamp = 0);
+								}
+							}
+						}
+						multmatrix([[1, 0, 0, 0], [0, 1, 0, -55], [0, 0, 1, 7.9], [0, 0, 0, 1]]) {
+							multmatrix([[1, 0, 0, 0], [0, 2.22045e-016, -1, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+								group() {
+									import(file = "../../../../Mcam9/Data/T.STL", layer = "", origin = [0, 0], scale = 1, convexity = 1, $fn = 100, $fa = 12, $fs = 2, timestamp = 0);
+								}
+							}
+						}
+					}
+					group() {
+						difference() {
+							cylinder($fn = 100, $fa = 12, $fs = 2, h = 25, r1 = 58, r2 = 58, center = false);
+							multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -1.2], [0, 0, 0, 1]]) {
+								cylinder($fn = 100, $fa = 12, $fs = 2, h = 30, r1 = 51, r2 = 51, center = false);
+							}
+						}
+					}
+				}
+			}
+		}
+#		multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0.78], [0, 0, 0, 1]]) {
+			cylinder($fn = 100, $fa = 12, $fs = 2, h = 1.22, r1 = 47.5, r2 = 47.5, center = false);
+		}
+		multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, -1], [0, 0, 0, 1]]) {
+			cylinder($fn = 100, $fa = 12, $fs = 2, h = 3, r1 = 45, r2 = 42, center = false);
+		}
+		cylinder($fn = 100, $fa = 12, $fs = 2, h = 25.5, r1 = 25, r2 = 48, center = false);
+		multmatrix([[1, 0, 0, 0], [0, 2.22045e-016, -1, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 6.875], [0, 0, 1, -50], [0, 0, 0, 1]]) {
+				cylinder($fn = 100, $fa = 12, $fs = 2, h = 100, r1 = 4, r2 = 4, center = false);
+			}
+		}
+		multmatrix([[1, 0, 0, 0], [0, 2.22045e-016, -1, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 6.875], [0, 0, 1, -53], [0, 0, 0, 1]]) {
+				cylinder($fn = 100, $fa = 12, $fs = 2, h = 106, r1 = 3.8, r2 = 3.8, center = false);
+			}
+		}
+		multmatrix([[2.22045e-016, -2.22045e-016, 1, 0], [1, 0, -2.22045e-016, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 6.875], [0, 0, 1, -50], [0, 0, 0, 1]]) {
+				cylinder($fn = 100, $fa = 12, $fs = 2, h = 100, r1 = 4, r2 = 4, center = false);
+			}
+		}
+		multmatrix([[2.22045e-016, -2.22045e-016, 1, 0], [1, 0, -2.22045e-016, 0], [0, 1, 2.22045e-016, 0], [0, 0, 0, 1]]) {
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 6.875], [0, 0, 1, -53], [0, 0, 0, 1]]) {
+				cylinder($fn = 100, $fa = 12, $fs = 2, h = 106, r1 = 3.8, r2 = 3.8, center = false);
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+arm0a.stl
+arm0b.stl
+arm1.stl
+armConnector.stl
+bodyLower.stl
+bodyUpper.stl
+boom.stl
+bucket linkage.stl
+bucket_print.stl
+cabinBottom.stl
+CabinTop.stl
+counterwheel.stl
+distrRing.stl
+loeffel.stl
+powerwheel.stl
+pwrWhlStabi.stl
+tableLower.stl
+TrackBoxLeft.stl
+trackBoxRight.stl
+trackGears.stl
+trackMiddleWheels.stl
+tracks.stl
+trackTightener.stl
+TrkMdlPart.stl
+washerSpacer.stl
+wireHolder.stl

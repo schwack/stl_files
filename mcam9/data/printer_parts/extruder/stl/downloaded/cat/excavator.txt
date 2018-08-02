@@ -1,0 +1,31 @@
+https://www.thingiverse.com/thing:50110
+
+Original is Volvo ec210
+M about 1:20
+And yes: there is sand at the teeth of the bucket out of my kids sandbox ;-)
+
+I hope the pictures are descibing the project best. On pic SAM_4173 the lower part of the body is shown with holes for batteries. It was redesigned that a big pb battery fits now. The two servos in the arm have about 120 Ncm, the big one in the body about 260 Ncm.
+In the tracks and for turnig there are the the cheapest servos ever in there.
+The servos in the tracks are hacked so that the pwm signal still works but they do it continously. Just search the web for "pwm servo hack"!
+In the turnshaft i soldered the + and - of the servos togeter to reduce lines from 6 to 4.
+The tooth gears are bought:
+http://www.conrad.de/ce/de/product/297410/Zahnradsortiment-Modul-1
+Maybe you can also print them, I can't.
+You can use: http://www.thingiverse.com/thing:333018
+The tracks are in fact a derivate from http://www.thingiverse.com/thing:36305
+Thank you LoialOtter!
+
+Custom Section
+
+Required part count
+
+You will need every file one time except of the following:
+3x washerSpacer
+1x bundle (already 2pc in file) trackTightener
+tracks (66 elements)
+2x either trackGears or powerwheel
+2x powerWhlStabi
+4x counterWheel
+1x loeffel or loeffelPrint
+10x trackMiddleWheels
+

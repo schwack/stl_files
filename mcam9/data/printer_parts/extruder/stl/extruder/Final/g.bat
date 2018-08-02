@@ -1,0 +1,1 @@
+dir /b /s /od *.stl > g.txt
